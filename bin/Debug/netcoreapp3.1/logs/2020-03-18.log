@@ -1,0 +1,75 @@
+2020-03-18 16:00:07.4539 INFO  Index  
+2020-03-18 16:04:02.9718 INFO  Index  
+2020-03-18 16:04:32.9105 INFO  Index  
+2020-03-18 16:04:34.8430 INFO  Index  
+2020-03-18 16:04:35.7525 INFO  Index  
+2020-03-18 16:04:36.1194 INFO  Index  
+2020-03-18 16:04:40.7801 INFO  Index22e  
+2020-03-18 16:06:46.4304 INFO  Index  
+2020-03-18 16:11:12.3792 INFO  Index  
+2020-03-18 16:29:48.4542 INFO  Call  
+2020-03-18 16:30:20.7048 INFO  Call  
+2020-03-18 16:36:06.2449 INFO  Run  
+2020-03-18 16:36:08.4214 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:36:08.4214 INFO  deneme - google.com - True  
+2020-03-18 16:36:14.0089 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:37:01.5645 INFO  Yeni uygulama eklendi.  
+2020-03-18 16:37:01.5768 INFO  Run  
+2020-03-18 16:37:01.6539 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:37:01.6814 INFO  deneme - google.com - True  
+2020-03-18 16:37:01.9052 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:37:07.2555 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:37:21.6269 INFO  deneme - google.com - True  
+2020-03-18 16:37:21.6466 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:37:21.7237 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:37:27.7156 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:37:41.6253 INFO  deneme - google.com - True  
+2020-03-18 16:37:41.6460 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:37:41.7286 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:37:47.2657 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:38:01.6322 INFO  deneme - google.com - True  
+2020-03-18 16:38:01.7222 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:38:01.7222 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:38:07.2630 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:38:21.6070 INFO  deneme - google.com - True  
+2020-03-18 16:38:21.6310 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:38:21.7159 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:38:27.2903 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:38:41.6192 INFO  deneme - google.com - True  
+2020-03-18 16:38:41.6418 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:38:41.7327 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:38:47.2028 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:39:01.6190 INFO  deneme - google.com - True  
+2020-03-18 16:39:01.6406 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:39:01.7241 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:39:07.2143 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:39:21.6292 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:39:21.6654 INFO  deneme - google.com - True  
+2020-03-18 16:39:21.7009 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:39:27.2089 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:39:41.6324 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:39:41.6577 INFO  deneme - google.com - True  
+2020-03-18 16:39:41.7145 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:41:52.6057 INFO  Run  
+2020-03-18 16:41:54.0544 INFO  deneme - google.com - True  
+2020-03-18 16:41:54.0544 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:41:54.0544 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:41:59.5772 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:42:01.2887 INFO  Web uygulaması oluşturuldu  
+2020-03-18 16:42:01.2887 INFO  Yeni uygulama eklendi.  
+2020-03-18 16:42:01.2887 INFO  Run  
+2020-03-18 16:42:01.3425 INFO  deneme - google.com - True  
+2020-03-18 16:42:01.3599 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:42:01.6056 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:42:01.7381 INFO  wtt4 - 4t34.com - True  
+2020-03-18 16:42:06.8393 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:44:15.6466 INFO  Run  
+2020-03-18 16:44:17.2646 INFO  wtt4 - 4t34.com - True  
+2020-03-18 16:44:17.2646 INFO  deneme3 - www.regfg.com - True  
+2020-03-18 16:44:17.2735 INFO  deneme3 - ewfefw.com - False  
+2020-03-18 16:44:17.3702 INFO  deneme - google.com - True  
+2020-03-18 16:44:22.9057 INFO  rherther - www.regreg.com - False  
+2020-03-18 16:44:33.9043 INFO  Web uygulaması silindi.  
+2020-03-18 16:44:47.6016 INFO  Email silindi. Silinen : metincaliskn2@gmail.com  
+2020-03-18 16:44:52.2564 INFO  Email eklendiregre  
+2020-03-18 16:45:10.0454 ERROR  DeleteEmail  

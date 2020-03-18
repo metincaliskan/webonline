@@ -1,0 +1,58 @@
+﻿@model IEnumerable<WebControlApp.Models.Entity.StatusEmail>
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Contact</h1>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+<div class="text-center">
+
+    <div class="col-md-12">
+        <div id="div_list" class="col-md-8">
+            <table class="table table-bordered">
+                <thead>
+                    <tr role="row">
+                        <th style="text-align:center">#</th>
+                        <th>Email</th>
+                        <th>Değiştir</th>
+                        <th>Sil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{int i = 1;}
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="text-align:center">
+                                @i
+                            </td>
+                            <td>
+                                @item.Email
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "CreateEmail", new { id = item.StatusEmailId }, new { @id = "btnedit", @class = "btn btn-info" })
+                            </td>
+                            <td>
+                                @Html.ActionLink("Delete", "DeleteEmail", new { id = item.StatusEmailId }, new { @id = "btndelete", @class = "btn btn-warning" })
+                            </td>
+
+                            </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+
+            @Html.ActionLink("Yeni Adres Ekle", "CreateEmail", "Home", null, new { @style = "float:left", @class = "btn btn-primary" })
+
+        </div>
+
+    </div>
+
+
+</div>
+

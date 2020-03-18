@@ -1,0 +1,89 @@
+﻿@model IEnumerable<WebControlApp.Models.Entity.WebAddress>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<script>
+
+    function IsDelete(Id) {
+        $.ajax({
+            url: 'Home/IsDeleteWeb',
+            type: 'GET',
+            data: { Id: Id },
+            dataType: 'json',
+            success: function (data) {
+                if (data == true) {
+                    alert("İşlem başarılı!");
+                }
+                else {
+                    alert("İşlem başarısız!");
+                }
+            }
+        });
+
+    }
+
+</script>
+
+<div class="text-center">
+
+    <div class="col-md-12">
+        <div id="div_list" class="col-md-8">
+            <table class="table table-bordered">
+                <thead>
+                    <tr role="row">
+                        <th style="text-align:center">#</th>
+                        <th>Ad</th>
+                        <th>Url</th>
+                        <th>Durum</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{int i = 1;}
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="text-align:center">
+                                @i
+                            </td>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @item.Url
+                            </td>
+                            <td>
+                                <select class="form-control drp_active" onchange="IsDelete(@item.WebAddressId);">
+                                    @if (item.IsDelete == false)
+                                    {
+                                        <option value=@item.WebAddressId selected="selected">Pasif</option>
+                                        <option value=@item.WebAddressId>Aktif</option>
+                                    }
+                                    else
+                                    {
+                                        <option value=@item.WebAddressId selected="selected">Aktif</option>
+                                        <option value=@item.WebAddressId>Pasif</option>
+                                    }
+                                </select>
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "CreateWebSite", new { id = item.WebAddressId }, new { @id = "btnedit", @class = "btn btn-info" })
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+
+            @Html.ActionLink("Yeni Url Ekle", "CreateWebSite", "Home", null, new { @style = "float:left", @class = "btn btn-primary" })
+
+        </div>
+
+    </div>
+
+
+</div>
